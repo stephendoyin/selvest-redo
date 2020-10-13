@@ -1,0 +1,23 @@
+.partner {
+  &__img-container {
+    img {
+      height: 70px;
+    }
+
+    margin-bottom: 4rem;
+    width: 100%;
+    &:last-child {
+      margin-bottom: 0rem;
+    }
+  }
+}
+
+@media (min-width: 1100px) {
+  .partner__img-container img {
+    height: 90px;
+  }
+  .partner__img-container {
+    margin-bottom: 0;
+    width: auto;
+  }
+}

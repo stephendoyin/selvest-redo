@@ -1,0 +1,36 @@
+.blog-list {
+  &__item {
+    width: 100%;
+    background: #ebfff6;
+    margin-bottom: 2.8rem;
+  }
+  &__label {
+    font-size: 0.9rem;
+    color: #5a718487;
+    font-weight: 400;
+  }
+  &__title {
+    color: #193c57;
+    font-weight: 700;
+    font-size: 1.3rem !important;
+  }
+  &__content {
+    padding: 1rem 0.6rem;
+  }
+  figure {
+    margin: 0 !important;
+    border-radius: 7px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 767px) {
+  .blog-list__item {
+    width: 48%;
+  }
+}
+@media (min-width: 922px) {
+  .blog-list__item {
+    width: 31%;
+  }
+}

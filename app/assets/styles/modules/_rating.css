@@ -1,0 +1,37 @@
+.rating {
+  &__icon-container {
+    height: 50px;
+    width: 50px;
+    background: #eef0f2;
+    border-radius: 50%;
+  }
+  &__title {
+    color: var(--dark-green);
+    font-size: 3rem;
+  }
+  &__label {
+    color: #5a7184;
+    font-size: 0.96rem;
+  }
+  &__item-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 22%;
+    margin-bottom: 3rem;
+  }
+  &__wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 922px) {
+  .rating__wrapper {
+    flex-wrap: nowrap;
+  }
+  .rating__item-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    width: auto;
+    margin-bottom: 2rem;
+  }
+}

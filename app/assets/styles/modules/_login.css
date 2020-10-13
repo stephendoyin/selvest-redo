@@ -1,0 +1,29 @@
+.login {
+  &__hero-img {
+    left: 0;
+    top: 52%;
+    transform: translateY(-50%);
+    width: 42%;
+    max-height: 80%;
+  }
+  &__shape-one {
+    top: 70px;
+    left: 20%;
+  }
+  &__shape-two {
+    right: 0;
+    top: 0;
+  }
+  &__shape-three {
+    bottom: 0;
+    right: 0%;
+  }
+  &__shape-four {
+    bottom: 0;
+    left: 10%;
+  }
+  &__title {
+    color: #193c57;
+    font-weight: 700;
+  }
+}

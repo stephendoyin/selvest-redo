@@ -1,0 +1,21 @@
+.strip {
+  &__shield-img {
+    max-width: 150px;
+  }
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  p {
+    opacity: 0.8;
+  }
+  .btn {
+    color: #30a971;
+  }
+  &__section {
+    background: url(../../assets/images/base.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}

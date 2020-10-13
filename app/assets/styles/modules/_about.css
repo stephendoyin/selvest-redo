@@ -1,0 +1,27 @@
+.about {
+  &__list {
+    list-style: none;
+    padding-top: 0.5rem;
+
+    li {
+      width: 48%;
+      line-height: 2.5;
+      color: #5a7184;
+      display: flex;
+      align-items: flex-start;
+      font-weight: 500;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 2rem;
+        height: 0.6rem;
+        margin-top: 12.7px;
+        background: url(../../assets/images/svg/check.svg);
+        background-size: contain;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+      }
+    }
+  }
+}

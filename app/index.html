@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+
+    <!-- build:css assets/styles/styles.css -->
+    <link rel="stylesheet" href="temp/styles/styles.css" />
+    <!-- endbuild -->
+
+    <!-- build:js assets/scripts/Vendor.js -->
+    <script src="temp/scripts/Vendor.js"></script>
+    <!-- endbuild -->
+  </head>
+
+  <body>
+    <header class="c-header position-relative">
+      <nav class="nav bg-white">
+        <div class="container">
+          <div class="d-flex align-items-center">
+            <div
+              class="nav__menu d-flex align-items-center justify-content-between"
+            >
+              <a href="index.html" class="">
+                <img src="assets/images/logo.png" class="logo" alt="" />
+              </a>
+              <div>
+                <a
+                  href="about.html"
+                  class="nav__link nav__link--js d-none d-md-inline-block ml-5"
+                  >About</a
+                >
+                <a
+                  href="savings.html"
+                  class="nav__link nav__link--js ml-5 d-none d-md-inline-block"
+                  >Save</a
+                >
+                <a
+                  href="invest.html"
+                  class="nav__link ml-5 d-none d-md-inline-block"
+                  >Invest</a
+                >
+                <!-- <a href="" class="nav__link ml-5">Blog</a>
+              <a href="" class="nav__link ml-5">FAQ</a> -->
+                <a
+                  href="login.html"
+                  class="nav__link ml-5 d-none d-md-inline-block"
+                  >Sign In</a
+                >
+              </div>
+            </div>
+            <div class="">
+              <a
+                href="Signup.html"
+                class="nav__link ml-5 text-white py-2 px-4 btn btn-sm btn-primary c-header__btn d-none d-md-block"
+                >Create an Account</a
+              >
+            </div>
+            <div class="d-flex align-items-center d-md-none">
+              <img
+                src="assets/images/svg/menu.svg"
+                class="nav__menu-icon"
+                width="36rem"
+                alt=""
+              />
+            </div>
+          </div>
+
+          <div
+            class="nav__menu nav__menu--mobile d-md-none bg-white position-absolute"
+          >
+            <span class="d-block text-right mx-3">
+              <img
+                src="assets/images/svg/cancel.svg"
+                class="close_btn"
+                height="15"
+                alt=""
+              />
+            </span>
+            <a
+              href="about.html"
+              class="mx-auto text-center nav__link nav__link--mobile d-flex align-items-center justify-content-center"
+            >
+              About
+            </a>
+            <a
+              href="savings.html"
+              class="mx-auto text-center nav__link nav__link--mobile d-flex align-items-center justify-content-center"
+            >
+              Save
+            </a>
+            <a
+              href="invest.html"
+              class="mx-auto text-center nav__link nav__link--mobile d-flex align-items-center justify-content-center"
+            >
+              Invest
+            </a>
+            <a
+              href="login.html"
+              class="mx-auto text-center nav__link nav__link--mobile d-flex align-items-center justify-content-center"
+            >
+              Sign In
+            </a>
+            <div class="text-center">
+              <a
+                href="login.html"
+                class="btn btn-custom btn-success btn-block mx-auto"
+                style="max-width: 90%"
+              >
+                Sign Up
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container position-relative">
+        <img
+          src="assets/images/svg/half-circle.svg"
+          class="position-absolute"
+          style="min-width: 100px"
+          alt=""
+        />
+        <div class="row c-header-content">
+          <div class="col-md-5 pt-5">
+            <h1 class="c-bold c-header__title pb-3 position-relative">
+              <img
+                src="assets/images/svg/dots.svg"
+                class="position-absolute dot-pattern dot-pattern--ex"
+                alt=""
+                style="min-width: 100px"
+              />
+              The smarter way to Save &amp Invest
+            </h1>
+            <span class="c-normal c-header__text c-lead-inline">
+              Plan for your future with our range of savings accounts and
+              medium-to-long term investment options
+            </span>
+            <div class="mt-5">
+              <!-- <a href="" class="mr-1 mr-sm-2 mb-3 mb-sm-0 d-inline-block"
+                ><img src="assets/images/svg/google.svg" alt="" />
+              </a>
+              <a href="" class="d-inline-block"
+                ><img src="assets/images/svg/apple.svg" alt="" />
+              </a> -->
+              <a href="#download" class="btn btn-primary btn-lg px-5 py-3">
+                Download
+              </a>
+            </div>
+          </div>
+          <div class="col-md-7">
+            <img src="assets/images/header-mock.png" width="100%" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="bg-white">
+      <div class="container section">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center c-title c-bold mb-5">
+              Get started in just 3 steps
+            </h4>
+          </div>
+          <div class="col-md-6 pr-md-4">
+            <img src="assets/images/framed-img.png" class="js-slide-up" alt="" />
+          </div>
+          <div class="col-md-5 pl-md-4 pt-5 mx-auto">
+            <div class="d-flex mb-5 align-items-start border-bottom pb-4  js-slide-up">
+              <div
+                class="c-step__image-box d-flex justify-content-center align-items-center"
+              >
+                <img src="assets/images/svg/user-shadow.svg" alt="" />
+              </div>
+              <div class="c-step__item js-slide-up">
+                <h5 class="c-step__title pb-3 c-semi">Create Account</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pha.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pha.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex mb-5 align-items-start border-bottom pb-4  js-slide-up">
+              <div
+                class="c-step__image-box c-step__image-box--colored d-flex align-items-center justify-content-center"
+              >
+                <img src="assets/images/svg/select.svg" alt="" />
+              </div>
+              <div class="c-step__item">
+                <h5 class="c-step__title pb-3 c-semi">Choose Plan</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pha.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pha.
+                </p>
+              </div>
+            </div>
+            <div class="d-flex align-items-start pb-4 js-slide-up">
+              <div
+                class="c-step__image-box d-flex align-items-center justify-content-center"
+              >
+                <img src="assets/images/svg/invest-sha.svg" alt="" />
+              </div>
+              <div class="c-step__item ">
+                <h5 class="c-step__title pb-4 c-semi">Save &amp Invest</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pha.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Pha.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="position-relative" style="overflow: hidden">
+      <div class="container section">
+        <div class="">
+          <div class="d-flex justify-content-center align-items-end">
+            <div class="text-center">
+              <h4 class="text-center c-title c-bold mb-3"></h4>
+            </div>
+
+            <div class="text-center mx-auto">
+              <h6
+                class="c-title-boxed mb-4 d-inline-block m-0 c-bold text-center mx-auto"
+              >
+                Feautures
+              </h6>
+              <h3 class="colored c-bold pb-md-0 text-center">
+                Intuitive features, powerful results
+              </h3>
+              <p class="c-lead-inline pt-3">
+                Plan for your future with our range of savings accounts
+                <br class="d-none d-sm-block" />
+                &amp; medium-to-long term investment options
+              </p>
+            </div>
+
+            <!-- <p class="text-align-right mb-0 c-semi">
+              We remind you of everything important <br />
+              and track everything that’s important.
+            </p> -->
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 position-relative">
+              <img
+                src="assets/images/svg/double-ellipse.svg"
+                class="position-absolute double-ellipse"
+                alt=""
+              />
+              <div
+                class="d-flex justify-content-between flex-wrap align-items-stretch"
+              >
+                <div class="steps__item bg-white p-5 mt-5">
+                  <div class="steps__icon mb-5 mt-2">
+                    <img src="assets/images/svg/cell-phone.svg" alt="" />
+                  </div>
+
+                  <h5 class="steps__title c-semi mb-3">Mobile transactions</h5>
+                  <p>
+                    Custom accounts that makes for unlimited payments and
+                    withdrawals on the go.
+                  </p>
+                  <a href="signup.html" class="steps__link">
+                    Get started
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="8"
+                      height="14"
+                      viewBox="0 0 8 14"
+                      fill="none"
+                      class="ml-1"
+                    >
+                      <path
+                        d="M1 13L7 7L1 1"
+                        stroke="#018D8F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="steps__item bg-white p-5 mt-5">
+                  <div class="steps__icon steps__icon--colored mb-5 mt-2">
+                    <img src="assets/images/svg/automated.svg" alt="" />
+                  </div>
+
+                  <h5 class="steps__title c-semi mb-3">Automated Investment</h5>
+                  <p>
+                    Grow your savings & automatically & experience the
+                    flexibility of online investment.
+                  </p>
+                  <a href="signup.html" class="steps__link">
+                    Get started
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="8"
+                      height="14"
+                      viewBox="0 0 8 14"
+                      fill="none"
+                      class="ml-1"
+                    >
+                      <path
+                        d="M1 13L7 7L1 1"
+                        stroke="#018D8F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+                <div class="steps__item bg-white p-5 mt-5">
+                  <div class="steps__icon mb-5 mt-2">
+                    <img src="assets/images/svg/secure.svg" alt="" />
+                  </div>
+
+                  <h5 class="steps__title c-semi mb-3">Security</h5>
+                  <p>
+                    SelVest uses secure processes to protect your information
+                    and help prevent unauthorized use.
+                  </p>
+                  <a href="signup.html" class="steps__link">
+                    Get started
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="8"
+                      height="14"
+                      viewBox="0 0 8 14"
+                      fill="none"
+                      class="ml-1"
+                    >
+                      <path
+                        d="M1 13L7 7L1 1"
+                        stroke="#018D8F"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="position-relative bg-white">
+      <div class="container section">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-5 position-relative js-slide-left-in mb-5 mb-md-0">
+            <img
+              src="assets/images/svg/dots.svg"
+              class="position-absolute dot-pattern dot-pattern--ex"
+              alt=""
+              style="min-width: 100px"
+            />
+
+            <h5 class="c-title-semi c-bold mb-3">Lorem Ipsum</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+              reiciendis at dignissimos pariatur fugit nobis excepturi
+              cupiditate officia consequatur ullam maiores quos voluptate porro
+              asperiores, quam culpa perspiciatis. Id, sunt?
+            </p>
+            <a href="signup.html" class="btn btn-primary btn-lg mt-3 px-5 py-3">
+              Get started
+            </a>
+          </div>
+          <div
+            class="col-md-5 mx-auto text-center js-slide-up position-relative"
+          >
+            <img
+              src="assets/images/mock-save.png"
+              class="mock__img position-relative"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="">
+      <div class="container section">
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center mx-auto">
+              <h6
+                class="c-title-boxed mb-4 d-inline-block m-0 c-bold text-center mx-auto"
+              >
+                Why Selvest
+              </h6>
+              <h4 class="pt-3 c-bold colored">
+                SelVest is free for 30 days,
+                <br class="d-none d-sm-block" />
+                make your savings count.
+              </h4>
+            </div>
+          </div>
+
+          <div class="col-12">
+            <div
+              class="d-flex flex-wrap justify-content-between align-items-stretch"
+            >
+              <div
+                class="feat js-slide-up bg-white text-center pl-4 pr-4 pb-2 position-relative"
+              >
+                <span class="feat__icon">
+                  <img src="assets/images/svg/sync-2.svg" alt="" />
+                </span>
+                <h6 class="colored">Automated Savings</h6>
+                <p>You just need to set once, and watch SelVest do the rest</p>
+              </div>
+              <div
+                class="feat js-slide-up bg-white text-center pl-4 pr-4 pb-2 position-relative"
+              >
+                <span class="feat__icon">
+                  <img src="assets/images/svg/custom.svg" alt="" />
+                </span>
+                <h6 class="colored">Unlimited Savings Goals</h6>
+                <p>Sel Capital helps you manages all your savings goals</p>
+              </div>
+              <div
+                class="feat js-slide-up bg-white text-center pl-4 pr-4 pb-2 position-relative"
+              >
+                <span class="feat__icon">
+                  <img src="assets/images/svg/bills.svg" alt="" />
+                </span>
+                <h6 class="colored">Overdraft Protection</h6>
+                <p>Automatic transfers to your checking.</p>
+              </div>
+              <div
+                class="feat js-slide-up bg-white text-center pl-4 pr-4 pb-2 position-relative"
+              >
+                <span class="feat__icon">
+                  <img src="assets/images/svg/percentage-2.svg" alt="" />
+                </span>
+                <h6 class="colored">Saving points</h6>
+                <p>Get paid for saving every 3 months.</p>
+              </div>
+              <div
+                class="feat js-slide-up bg-white text-center pl-4 pr-4 pb-2 position-relative"
+              >
+                <span class="feat__icon">
+                  <img src="assets/images/svg/card.svg" alt="" />
+                </span>
+
+                <h6 class="colored">Easy Payment &amp; Withdrawal</h6>
+                <p>Seamless payment using your debit/credit card.</p>
+              </div>
+              <div
+                class="feat js-slide-up bg-white text-center pl-4 pr-4 pb-2 position-relative"
+              >
+                <span class="feat__icon">
+                  <img src="assets/images/svg/shield.svg" alt="" />
+                </span>
+                <h6 class="colored">Secured Transactions</h6>
+                <p>The fee is on us if SelVest saves too much..</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq__section" id="faq">
+      <div class="container section border-bottom">
+        <div class="row">
+          <div class="col-12 mb-5">
+            <div class="text-center">
+              <h2 class="text-center c-title c-bold">
+                Frequently asked questions
+              </h2>
+            </div>
+          </div>
+
+          <div class="col-md-10 mx-auto mt-4">
+            <div class="faq__container">
+              <div class="row">
+                <div class="col-11 mx-auto">
+                  <div
+                    class="faq__item border js-slide-up"
+                    style="height: 65px; visibility: visible"
+                  >
+                    <div class="faq__header">
+                      <span class="d-flex justify-content-start colored">
+                        What is SelVest?
+                      </span>
+                      <span class="minus text-white"> − </span>
+                      <span class="plus text-white"> + </span>
+                    </div>
+                    <div class="faq__content">
+                      <p class="c-normal">
+                        SelVest is an app that helps you save and invest without
+                        having to think about it. SelVest can help you with the
+                        discipline needed to save money for the rainy days.
+                      </p>
+                      <p class="c-normal">
+                        You can choose to safelock a specific amount for a
+                        duration of time.
+                      </p>
+                      <p class="c-normal">
+                        We also make investment flexible &amp; stress free.
+                        Offering packages available from multiple profitable
+                        sectors.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="faq__item border js-slide-up"
+                    style="height: 65px; visibility: visible"
+                  >
+                    <div class="faq__header">
+                      <span class="d-flex justify-content-start colored">
+                        How do I start saving on SelVest?
+                      </span>
+                      <span class="minus text-white"> − </span>
+                      <span class="plus text-white"> + </span>
+                    </div>
+                    <div class="faq__content">
+                      <p class="c-normal">
+                        Visit the website or download the app to create an
+                        account. Set up your withdrawal account details; this is
+                        the bank account that funds you withdraw will get sent
+                        to. Enter your debit card details to activate your
+                        account and then make your first deposit. You may now
+                        proceed to use any of the Savings Plans to get started
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="faq__item border js-slide-up"
+                    style="height: 65px; visibility: visible"
+                  >
+                    <div class="faq__header">
+                      <span class="d-flex justify-content-start colored">
+                        How much do I need to start saving/Investing SelVest?
+                      </span>
+                      <span class="minus text-white"> − </span>
+                      <span class="plus text-white"> + </span>
+                    </div>
+                    <div class="faq__content">
+                      <p class="c-normal">
+                        Selvest is free to Join. <br />
+                        To add money to your account you can use any bank debit
+                        card,
+                        <br />
+
+                        For Savings: You can start saving with as low as ₦50.
+                        <br />
+                        For Investment: Depends on the offerings.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="faq__item border js-slide-up"
+                    style="height: 65px; visibility: visible"
+                  >
+                    <div class="faq__header">
+                      <span class="d-flex justify-content-start colored">
+                        Are my card details safe?
+                      </span>
+                      <span class="minus text-white"> − </span>
+                      <span class="plus text-white"> + </span>
+                    </div>
+                    <div class="faq__content">
+                      <p class="c-normal">
+                        Your security is our major priority, so we work with a
+                        PCIDSS-compliant payment processor, Paystack to handle
+                        your card details. Your card details are extremely safe
+                        and are warehoused where they can never be compromised.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="faq__item border js-slide-up"
+                    style="height: 65px; visibility: visible"
+                  >
+                    <div class="faq__header">
+                      <span class="d-flex justify-content-start colored">
+                        Is my money on selvest secure?
+                      </span>
+                      <span class="minus text-white"> − </span>
+                      <span class="plus text-white"> + </span>
+                    </div>
+                    <div class="faq__content">
+                      <p class="c-normal">
+                        The security of our users is of immense importance to
+                        us. We adopt bank level security measures in handling
+                        user’s information. SelVest supports the latest
+                        recommended secure cipher suites to encrypt all traffic
+                        in transit, including the use of TLS 1.2 protocols,
+                        AES256 encryption, and SHA2 signatures, whenever
+                        supported by the clients.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="faq__item border js-slide-up"
+                    style="height: 65px; visibility: visible"
+                  >
+                    <div class="faq__header">
+                      <span class="d-flex justify-content-start colored">
+                        How do I make withdrawals?
+                      </span>
+                      <span class="minus text-white"> − </span>
+                      <span class="plus text-white"> + </span>
+                    </div>
+                    <div class="faq__content">
+                      <p class="c-normal">
+                        Withdrawals are done with ease in real time. Follow
+                        these procedures to make a withdrawal:
+                      </p>
+                      <ol class="faq__list">
+                        <li>
+                          <span class="pr-2">1.</span>Select a plan in to your
+                          Selvest account.
+                        </li>
+                        <li><span class="pr-2">2.</span>Select your plan</li>
+                        <li>
+                          <span class="pr-2">3.</span>Enter the amount you want
+                          to withdraw
+                        </li>
+                        <li>
+                          <span class="pr-2">4.</span>Select the withdrawal
+                          destination.
+                        </li>
+                        <li>
+                          <span class="pr-2">5.</span>Make your withdrawal.
+                          that's all
+                        </li>
+                      </ol>
+                      <p class="c-normal">
+                        If you have not added your bank details, tap “Banks
+                        &amp; Cards”. Under “Banks” provide details of the
+                        preferred bank account to be credited and save. If
+                        withdrawal is not settled after six hours, do send us a
+                        message on any of our channels: Twitter, Instagram,
+                        Email or Live Chat.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="d-flex pt-3 justify-content-center align-items-center"
+                  >
+                    <!-- <a href="" class="btn-md btn btn-outline-light">
+                      More Question
+                    </a> -->
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="faq-img">
+                <img src="images/faq.svg" alt="" />
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial__section position-relative bg-white">
+      <div class="container section">
+        <div class="row">
+          <div class="col-12">
+            <h4 class="text-center c-title c-bold">What others are saying</h4>
+          </div>
+          <div class="col-md-12">
+            <div
+              class="d-flex justify-content-between flex-wrap align-items-stretch"
+            >
+              <div
+                class="steps__item border bg-white px-5 py-5 mt-5 position-relative"
+              >
+                <p class="testimonial__content">
+                  Completely beautiful website and amazing support! This is my
+                  second website from this author and I love both of the sites
+                  so much and she has helped me so well when I needed it!
+                </p>
+                <div class="testimonial__footer position-absolute">
+                  <div class="testimonial__avatar mx-auto mb-3">
+                    <img src="assets/images/avatar1.png" alt="" />
+                  </div>
+                  <h6 class="text-center c-bold mb-1">Happy User</h6>
+                  <p class="text-center mb-0">Dele Johnson</p>
+                </div>
+              </div>
+              <div
+                class="steps__item border bg-white px-5 py-5 mt-5 position-relative"
+              >
+                <p class="testimonial__content">
+                  Completely beautiful website and amazing support! This is my
+                  second website from this author and I love both of the sites
+                  so much and she has helped me so well when I needed it!
+                </p>
+                <div class="testimonial__footer position-absolute">
+                  <div class="testimonial__avatar mx-auto mb-3">
+                    <img src="assets/images/avartar2.png" alt="" />
+                  </div>
+                  <h6 class="text-center c-bold mb-1">Happy User</h6>
+                  <p class="text-center mb-0">James Uzo</p>
+                </div>
+              </div>
+              <div
+                class="steps__item border bg-white px-5 py-5 mt-5 position-relative"
+              >
+                <p class="testimonial__content">
+                  Really pleasing to look at! Documentation (including
+                  installation instructions) are clear and that is coming from a
+                  relatively new WordPress user.
+                </p>
+                <div class="testimonial__footer position-absolute">
+                  <div class="testimonial__avatar mx-auto mb-3">
+                    <img src="assets/images/avatar3.png" alt="" />
+                  </div>
+                  <h6 class="text-center c-bold mb-1">Happy User</h6>
+                  <p class="text-center mb-0">Jane Abito</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-white position-relative">
+      <div class="container p-5 bg-white footer__call">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-md-7">
+            <h2 class="c-bold footer__call__title colored">
+              Download SelVest App Today
+            </h2>
+            <p>Get the link sent to you & start saving with SelVest today!</p>
+          </div>
+          <div class="col-md-5 d-flex justify-content-end">
+            <a href="#" class="mx-2"
+              ><img src="assets/images/googleplaybtn.png" alt=""
+            /></a>
+            <a href="#" class="mx-2"
+              ><img src="assets/images/appstorebtn.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row footer__box justify-content-between">
+          <div
+            class="col-md-4 col-sm-6 col-12 mb-3 mb-md-0 text-center text-sm-left"
+          >
+            <ul class="footer__list-wrapper pr-5">
+              <li class="footer__list__header">
+                <img src="assets/images/logo.png" class="logo" />
+              </li>
+              <li>
+                SelVest, digitizing, automating & simplify savings &amp;
+                investment transactions
+              </li>
+              <li
+                class="d-flex align-items-center justify-content-center justify-content-sm-start"
+              >
+                <a
+                  href=""
+                  class="footer__social-link d-flex justify-content-center align-items-center mr-2"
+                >
+                  <img src="assets/images/svg/Vector.svg" alt="" />
+                </a>
+                <a
+                  href=""
+                  class="footer__social-link d-flex justify-content-center align-items-center mr-2"
+                >
+                  <img src="assets/images/svg/Vector-1.svg" alt="" />
+                </a>
+                <a
+                  href=""
+                  class="footer__social-link d-flex justify-content-center align-items-center mr-2"
+                >
+                  <img src="assets/images/svg/Vector-2.svg" alt="" />
+                </a>
+                <a
+                  href=""
+                  class="footer__social-link d-flex justify-content-center align-items-center"
+                >
+                  <img src="assets/images/svg/Vector-3.svg" alt="" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-md col-sm-6 col-12 mb-3 mb-md-0 text-center text-sm-left"
+          >
+            <ul class="footer__list-wrapper">
+              <li class="footer__list__header">Quick Links</li>
+              <li><a class="footer__link" href="">Plan</a></li>
+              <li><a class="footer__link" href="">Save</a></li>
+              <li><a class="footer__link" href="">Invest</a></li>
+              <li><a class="footer__link" href="">Blog</a></li>
+            </ul>
+          </div>
+          <div
+            class="col-md col-sm-6 col-12 mb-3 mb-md-0 text-center text-sm-left"
+          >
+            <ul class="footer__list-wrapper">
+              <li class="footer__list__header">Company</li>
+              <li><a class="footer__link" href="">About</a></li>
+              <li><a class="footer__link" href="">FAQ</a></li>
+              <li><a class="footer__link" href="">Terms &amp Policy</a></li>
+              <li><a class="footer__link" href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div
+            class="col-md-4 col-sm-6 col-12 mb-3 mb-md-0 text-center text-sm-left"
+          >
+            <ul class="footer__list-wrapper">
+              <li class="footer__list__header">More</li>
+              <li>
+                224A, Etim Inyang Crescent, Victoria Island, Lagos 5b, Oyo
+                Close, Parkview Estate, Ikoyi, Lagos
+              </li>
+              <li>0700 002 2400</li>
+              <li>info@SelVestpartners.com</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="text-center">
+              <img
+                src="assets/images/logo-sm.png"
+                class="d-block mx-auto mt-4 mb-3"
+                alt=""
+              />
+              <small class="footer__copy text-uppercase">
+                2020 &COPY; SEL CAPITAL. ALL RIGHTS RESERVED.
+              </small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+    <!-- build:js assets/scripts/App.js -->
+    <script src="temp/scripts/App.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

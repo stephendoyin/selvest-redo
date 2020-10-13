@@ -1,0 +1,146 @@
+.c-header {
+  /* min-height: 100vh; */
+  overflow: hidden;
+  padding: 0;
+  background: url(../../assets/images/bg.jpg);
+  background-size: cover;
+  background-position: left bottom;
+
+  &-content {
+    padding-top: 8.5rem;
+  }
+
+  &__custom-title {
+    color: #05dcdf;
+    font-size: 1.5rem;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  &--savings {
+    background: url(../../assets/images/savings.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  &--invest {
+    background: url(../../assets/images/invest-hero.jpg);
+    background-size: cover;
+    background-position: right bottom;
+  }
+
+  &--login {
+    padding: 7rem 0 0 0;
+    background: #f8fbff;
+    min-height: 100vh;
+  }
+
+  &--about {
+    /* background: #f8fbff; */
+    background-position: right bottom;
+    background-size: cover;
+    .c-header-content {
+      padding: 9rem 0rem;
+    }
+  }
+
+  &__btn {
+    white-space: nowrap;
+    border-radius: 60px;
+    font-size: 0.8rem;
+    &::after {
+      display: none;
+    }
+  }
+  &__inner {
+    width: 100%;
+  }
+
+  &__bg-one {
+    top: 0;
+    right: 0;
+    z-index: 0;
+    max-width: 111%;
+  }
+
+  &__bg-two {
+    bottom: 0px;
+    left: 0;
+    z-index: 0;
+    max-width: 20%;
+  }
+  &__text-container {
+    width: 100%;
+    position: relative;
+    z-index: 21;
+    padding-top: 25px;
+    /* padding-left: 2rem; */
+    padding-right: 2rem;
+    max-width: 700px;
+
+    &--wide {
+      padding-right: 0;
+      max-width: 800px;
+    }
+  }
+  &__img-container {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    font-size: 3.4rem;
+    font-weight: 900;
+    color: #20286e;
+    &--about {
+      padding: 20vh 0;
+    }
+  }
+  &__text {
+    font-size: 1.125rem;
+    color: #5a7184;
+    font-weight: 400;
+    /* opacity: 94%; */
+    line-height: 1.8;
+  }
+  &__resp {
+    right: 0;
+    top: 55%;
+    transform: translateY(-50%);
+    img {
+      width: 100%;
+    }
+  }
+  &__hero-img {
+    z-index: 22;
+  }
+
+  &__circle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+  }
+}
+/* 
+@media (min-width: 567px) {
+} */
+
+@media (min-width: 768px) {
+  .c-header__text-container {
+    width: 48%;
+  }
+
+  .c-header__title {
+    font-size: 3.3rem;
+  }
+}
+
+@media (min-width: 822px) {
+  .c-header--login {
+    background: url(../../assets/images/login-bg.jpg);
+    background-size: cover;
+    background-position: left top;
+  }
+}

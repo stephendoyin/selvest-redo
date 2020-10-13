@@ -1,0 +1,19 @@
+.c-step {
+  &__image-box {
+    width: 55px;
+    height: 55px;
+    min-width: 55px;
+    margin-right: 3.5rem;
+  }
+  &__title {
+    font-size: 1.25rem;
+    color: #1e266d;
+  }
+  &__image-box {
+    background: #b5f2e3;
+    border-radius: 2px;
+    &--colored {
+      background: #facfca;
+    }
+  }
+}

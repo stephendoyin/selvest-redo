@@ -1,0 +1,21 @@
+.value {
+  &__item {
+    width: 100%;
+    margin-top: 3rem;
+    p {
+      max-width: 400px;
+    }
+  }
+  &__icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 13px;
+    background: #e9f9f4;
+  }
+}
+
+@media only screen and (min-width: 510px) {
+  .value__item {
+    width: 46%;
+  }
+}

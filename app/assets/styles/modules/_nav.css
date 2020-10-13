@@ -1,0 +1,71 @@
+.nav {
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+  .logo {
+    max-height: 35px;
+  }
+
+  &__menu {
+    width: 100%;
+    &--mobile {
+      top: 0;
+      left: 0;
+      z-index: 0;
+      padding: 0;
+      height: 0;
+      overflow: hidden;
+      font-size: 1rem;
+      opacity: 0;
+      transition: height 0.2s linear;
+
+      &--open {
+        height: 345px;
+        z-index: 44;
+        opacity: 1;
+        padding: 15px 0;
+      }
+    }
+  }
+
+  &__link {
+    color: #73738d;
+    font-size: 1rem;
+    font-weight: 400;
+    position: relative;
+    &--mobile {
+      height: 60px;
+      text-align: center;
+      color: var(--success);
+      display: flex;
+      align-items: center;
+    }
+    &.active::after {
+      width: 15px;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      height: 2px;
+      width: 0;
+      background: #fff;
+      bottom: -5px;
+      left: 0;
+      transition: width 0.2s linear;
+    }
+    &:hover {
+      color: var(--green);
+      &::after {
+        width: 15px;
+      }
+    }
+
+    &.active:after {
+      width: 15px;
+    }
+  }
+}
