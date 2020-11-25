@@ -10179,8 +10179,7 @@ p {
 
 .c-title {
   font-size: 2.5rem;
-  color: var(--dark-green);
-  color: #1e266d;
+  color: #0e9496;
 }
 
 .c-title--small {
@@ -10310,7 +10309,7 @@ img {
 
 .c-title-semi {
   font-size: 1.9rem;
-  color: #20286e;
+  color: #018d8f;
 }
 
 .c-title-boxed {
@@ -10319,7 +10318,7 @@ img {
 }
 
 .colored {
-  color: #1e266d;
+  color: #018d8f;
 }
 
 .colored--gr {
@@ -10637,6 +10636,8 @@ li span {
     white-space: nowrap;
     border-radius: 60px;
     font-size: 0.8rem;
+    background: #018d8f !important;
+    border: 1px solid #018d8f;
   }
 
 .c-header__btn::after {
@@ -10687,7 +10688,7 @@ li span {
 .c-header__title {
     font-size: 3.4rem;
     font-weight: 900;
-    color: #20286e;
+    color: #006e70;
   }
 
 .c-header__title--about {

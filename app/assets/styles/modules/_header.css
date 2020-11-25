@@ -47,6 +47,8 @@
     white-space: nowrap;
     border-radius: 60px;
     font-size: 0.8rem;
+    background: #018d8f !important;
+    border: 1px solid #018d8f;
     &::after {
       display: none;
     }
@@ -92,7 +94,7 @@
   &__title {
     font-size: 3.4rem;
     font-weight: 900;
-    color: #20286e;
+    color: #006e70;
     &--about {
       padding: 20vh 0;
     }

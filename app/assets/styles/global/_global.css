@@ -50,8 +50,7 @@ p {
 }
 .c-title {
   font-size: 2.5rem;
-  color: var(--dark-green);
-  color: #1e266d;
+  color: #0e9496;
 
   &--small {
     font-size: 1.125rem;
@@ -178,7 +177,7 @@ img {
 
 .c-title-semi {
   font-size: 1.9rem;
-  color: #20286e;
+  color: #018d8f;
 }
 
 .c-title-boxed {
@@ -187,7 +186,7 @@ img {
 }
 
 .colored {
-  color: #1e266d;
+  color: #018d8f;
   &--gr {
     color: #26c296 !important;
   }
