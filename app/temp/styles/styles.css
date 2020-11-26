@@ -10341,6 +10341,16 @@ li span {
   color: #5a7184;
 }
 
+.btn-primary {
+  background-color: #0e9496;
+  border-color: #018d8f;
+}
+
+.btn-primary:hover {
+  background-color: #0c7274;
+  border-color: #0c7274;
+}
+
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
